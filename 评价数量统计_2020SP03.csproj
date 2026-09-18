@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>True</UseWindowsForms>
+    <SignAssembly>False</SignAssembly>
+    <ApplicationIcon>connections.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="connections.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.PCDLRN">
+      <HintPath>C:\Program Files\Hexagon\PC-DMIS 2020 R1 64-bit\INTEROP.PCDLRN.DLL</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
